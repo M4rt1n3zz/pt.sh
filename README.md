@@ -27,10 +27,10 @@ Check a list of URLs from a file:
 ```
 ./pt.sh -l <list_file>
 ```
-###Options
--l <list_file>: Specify a file containing URLs (one per line) to check.
--t <timeout>: Specify a timeout in seconds for the request (default is 15 seconds).
-###Examples
+### Options
+`-l <list_file>:` Specify a file containing URLs (one per line) to check.
+`-t <timeout>:` Specify a timeout in seconds for the request (default is 15 seconds).
+### Examples
 Check a single URL:
 
 ```
@@ -41,7 +41,7 @@ Check a list of URLs from a file:
 ```
 ./pt.sh -l urls.txt -t 10
 ```
-###Output
+### Output
 The script will output the status of each URL checked:
 
 Active URLs will be listed with their HTTP status codes.
